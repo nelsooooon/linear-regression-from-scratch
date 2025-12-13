@@ -91,6 +91,7 @@ linear-regression-from-scratch/
 │
 ├── linear_regression.py    # File utama implementasi linear regression
 ├── requirements.txt        # File dependencies Python
+├── LICENSE                  # MIT License
 ├── res/
 │   ├── train.csv           # Dataset training (700 data)
 │   └── test.csv            # Dataset testing (300 data)
@@ -102,10 +103,10 @@ linear-regression-from-scratch/
 
 ## Persyaratan
 
-- Python 3.x
-- NumPy
-- Pandas
-- Matplotlib
+- Python 3.8+
+- NumPy >= 1.20.0
+- Pandas >= 1.3.0
+- Matplotlib >= 3.4.0
 
 ---
 
@@ -121,13 +122,13 @@ linear-regression-from-scratch/
 2. **Install dependencies**
 
    ```bash
-   pip install numpy pandas matplotlib
+   pip install -r requirements.txt
    ```
 
-   Atau menggunakan file requirements (jika ada):
+   Atau install secara manual:
 
    ```bash
-   pip install -r requirements.txt
+   pip install 'numpy>=1.20.0' 'pandas>=1.3.0' 'matplotlib>=3.4.0'
    ```
 
 ---
@@ -285,7 +286,7 @@ Setelah menjalankan program, output yang dihasilkan:
 
 ## 📝 Lisensi
 
-Proyek ini bersifat open source untuk tujuan pembelajaran.
+Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE untuk detail lebih lanjut.
 
 ---
 
