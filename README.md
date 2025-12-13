@@ -287,9 +287,3 @@ Setelah menjalankan program, output yang dihasilkan:
 ## 📝 Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE untuk detail lebih lanjut.
-
----
-
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Silakan fork repository ini dan buat pull request untuk perbaikan atau penambahan fitur.
