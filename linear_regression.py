@@ -41,6 +41,7 @@ data_train = pd.read_csv(train_path)
 data_test = pd.read_csv(test_path)
 data_train_clean = data_train.dropna()
 data_train_clean = drop_outlier(data_train_clean)
+data_test = data_test.dropna()
 
 m = 0
 b = 0
